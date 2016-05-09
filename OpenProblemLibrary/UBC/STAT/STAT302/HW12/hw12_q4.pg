@@ -1,16 +1,8 @@
-##DESCRIPTION
-## STAT 302 Introduction to Probability
-##ENDDESCRIPTION
-
-## Tagged by Jonathan Baik
-## 2014-02-12
-
-##KEYWORDS('random variables', 'Central Limit Theorem', 'use the Central Limit Theorem to estimate the probability that the mean of 100 i.i.d. variables exceeds a given value', 'use the Central Limit Theorem to estimate the probability that the sum of 100 i.i.d. variables falls in a given range')
-
 ## DBsubject('Probability')
-## DBchapter('Theory')
-## DBsection('Random Variables')
-## Level(5)
+## DBchapter('Laws, theory')
+## DBsection('Central Limit Theorem')
+## Level(3)
+## KEYWORDS('random variables', 'Central Limit Theorem', 'use the Central Limit Theorem to estimate the probability that the mean of 100 i.i.d. variables exceeds a given value', 'use the Central Limit Theorem to estimate the probability that the sum of 100 i.i.d. variables falls in a given range')
 ## Author('Jonathan Baik')
 ## Date('2013/07/29')
 ## Institution('University of British Columbia')
@@ -151,7 +143,7 @@ $BR
 $BR
 $BCENTER
 \(
-P\left(\frac{\bar{X} - \mu}{\sigma/10} > \frac{x - \mu}{\sigma/10} \right) = 1-P\left( Z - \frac{x - \mu}{\sigma/10} \right)
+P\left(\frac{\bar{X} - \mu}{\sigma/10} > \frac{x - \mu}{\sigma/10} \right) = 1-P\left( Z \leq \frac{x - \mu}{\sigma/10} \right)
 \)
 $ECENTER
 $BR
